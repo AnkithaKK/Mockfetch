@@ -7,7 +7,7 @@ async function mockfetch(url) {
                 json: () => Promise.resolve([
                     { id: 1, title: "mockpost-1" },
                     { id: 2, title: "mockpost-2" },
-                    {id:3,title:"mockpost-3"}
+                    { id: 3, title: "mockpost-3"}
                 ])
             };
             setTimeout(() => resolve(mockres), 2000);
